@@ -82,4 +82,4 @@ ShopMaster is a full-featured e-commerce platform designed to showcase **scalabl
 ## Setup Instructions
 1. Clone the repository  
 ```bash
-git clone https://github.com/yourusername/shopmaster.git
+git clone https://github.com/amanySaad/ShopMaster.git
