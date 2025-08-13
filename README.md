@@ -83,3 +83,35 @@ ShopMaster is a full-featured e-commerce platform designed to showcase **scalabl
 1. Clone the repository  
 ```bash
 git clone https://github.com/amanySaad/ShopMaster.git
+cd shopmaster
+```
+
+2. Install dependencies
+```bash
+composer install        # Laravel backend
+npm install             # Frontend SPA
+```
+
+3. Setup environment variables
+Copy .env.example to .env
+```bash
+cp .env.example .env
+```
+Update database, API keys (Sentry, Algolia, Payment)
+
+4. Run migrations & seeders
+  ```bash
+php artisan migrate --seed
+```
+
+5. Build frontend
+   ```bash
+   npm run dev
+   ```
+
+6. Start the backend
+```bash
+   php artisan serve
+  ```
+ 
+
